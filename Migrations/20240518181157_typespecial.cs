@@ -27,8 +27,8 @@ namespace PetShop.Migrations
                     { 15, null, "Sphynx", null, null },
                     { 16, null, "Munchkin", null, null },
                     { 17, null, "Scottish Fold", null, null },
-                    { 18, null, "Đồ cho chó", null, null },
-                    { 19, null, "Đồ cho mèo", null, null }
+                    { 18, null, "Đồ cho chó", null, null }
+                    
                 });
         }
 
@@ -74,10 +74,6 @@ namespace PetShop.Migrations
                 keyColumn: "DogSpeciesId",
                 keyValue: 18);
 
-            migrationBuilder.DeleteData(
-                table: "DogSpecies",
-                keyColumn: "DogSpeciesId",
-                keyValue: 19);
 
             migrationBuilder.DropColumn(
                 name: "Type",
